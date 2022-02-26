@@ -72,7 +72,6 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton("✨المطور✨", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
-                    ),
                     InlineKeyboardButton(
                         "✨𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴✨", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
