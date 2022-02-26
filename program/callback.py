@@ -36,7 +36,6 @@ async def cbstart(_, query: CallbackQuery):
                     InlineKeyboardButton("✨المطور✨", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
-                    ),
                     InlineKeyboardButton(
                         "✨𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴✨", url=f"https://t.me/S_Q_I"
                     )
