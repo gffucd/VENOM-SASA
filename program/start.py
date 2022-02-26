@@ -62,14 +62,14 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• اضفني الى مجموعتك •",
+                        "✨اضفني الى مجموعتك✨",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("• طريقة الاستخدام •", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("✨طريقة الاستخدام✨", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("• الاوامر •", callback_data="cbbasic"),
-                    InlineKeyboardButton("• المطور •", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("✨الاوامر✨", callback_data="cbbasic"),
+                    InlineKeyboardButton("✨المطور✨", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -91,7 +91,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["المعلومات", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["السورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
