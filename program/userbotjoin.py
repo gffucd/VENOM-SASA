@@ -43,7 +43,7 @@ async def join_group(client, message):
     )
 
 
-@Client.on_message(command(["اطلع",
+@Client.on_message(command(["غادر",
                             f"leave@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def leave_one(client, message):
