@@ -26,26 +26,21 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "• اضفني الئ مجموعتك •",
+                        "✨اضفني الئ مجموعتك✨",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("• طريقة الاستخدام •", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("✨طريقة الاستخدام✨", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("• الاوامر •", callback_data="cbbasic"),
-                    InlineKeyboardButton("• المطور •", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("✨الاوامر✨", callback_data="cbbasic"),
+                    InlineKeyboardButton("✨المطور✨", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• جروب الدعم •", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨جروب الدعم✨", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/S_Q_I"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "𝐅𝐫𝐎𝐦 𝑽𝑬𝑵𝑶𝑴", url="https://t.me/V_O_O"
+                        "✨𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴✨", url=f"https://t.me/S_Q_I"
                     )
                 ],
             ]
