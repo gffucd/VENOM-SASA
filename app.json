@@ -44,11 +44,6 @@
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true
         },
-        "GROUP_SUPPORT": {
-            "description": "ضع هنا يوزر جروبك بدون علامة @",
-            "required": true,
-            "value": "V_8_T"
-        },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
