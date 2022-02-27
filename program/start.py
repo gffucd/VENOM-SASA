@@ -110,7 +110,7 @@ async def alive(client: Client, message: Message):
     )
     
     
-Client.on_message(
+@Client.on_message(
     command(["المطور", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
